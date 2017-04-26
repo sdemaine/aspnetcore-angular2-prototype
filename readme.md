@@ -35,6 +35,11 @@ Restore NPM packages
 npm install
 ```
 
+Install Webpack Middleware
+```
+npm install --save webpack-hot-middleware
+```
+
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
