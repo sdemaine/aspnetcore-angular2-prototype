@@ -18,16 +18,21 @@ Give examples
 
 A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
+Fix issue with webpack not being configured properly after performing a clone of the repository
 
 ```
-Execute webpack "--config webpack.config.vendor.js" prior to running "dotnet restore"
+webpack --config webpack.config.vendor.js
 ```
 
-And repeat
+Restore dotnet packages
 
 ```
-until finished
+dotnet restore
+```
+
+Restore NPM packages
+```
+npm install
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
